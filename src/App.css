@@ -2,15 +2,36 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.classButtonSearch{
+  background-color: #2a9382;
+  font-weight: 700;
+  padding: 8px 10px 8.5px 8px;
+  margin: 0px 10px 0px 0px;
+  text-wrap:nowrap;
+  border-radius: 3%;
+}
+.classButtonSearch:hover{
+  background-color: #ff8306;
+}
+.classButtonSearch:active{
+  background-color: #a55200;
+}
 .classInputSearch{
   background-color: #ffffff;
-  line-height: 15px;
-  margin: 0px 3px;
-  border-radius: 20px;
+  line-height: 10px;
+  margin: 10px 0px 10px 0px;
   font-size: medium;
   color: black;
   padding: 10px;
+  font-family: Helvetica;
+ 
 }
+.classInputSearch:focus{
+  border: 2px solid #767676;
+  outline: none;
+}
+
 .classTitle{
   padding: 0px 20px;
   font-size: 2.7em;
@@ -19,7 +40,7 @@
   text-wrap:nowrap;
 }
 .classSpanPaw{
-  background-color: #6084a1;
+  background-color: #2a9382;
   border-radius: 50%;
   margin: 0px 5px;
   padding: 3px 6px;
@@ -27,33 +48,39 @@
   
 }
 .classButtonCart{
-  background-color: #6084a1;
+  background-color: #2a9382;
   border-radius: 50%;
   margin: 0px 5px;
   padding: 3px 6px;
   transition: transform 0.6s;
 }
 .classButtonUser{
-  background-color: #6084a1;
+  background-color: #2a9382;
   border-radius: 50%;
-  transition: transform 0.6s;
-  font-size: 30px;
-  line-height: 25px;
-  margin: 0px 3px;
-  padding: 4px 7.3px 6px 7.3px;
+  font-size: 40px;
+  line-height: 28px;
+  margin: 0px 5px 0px 5px;
+  padding: 4px 8px 11.5px 8px;
 }
 .classSpanPaw:hover{
   transform: rotate(360deg);
 }
 .classButtonCart:hover{
   transform: rotate(-30deg);
+  background-color: #ff8306;
 }
-.classButtonPhone:hover{
-  transform: rotate(40deg);
+.classButtonCart:active{
+  background-color: #a55200;
+}
+.classButtonUser:hover{
+  background-color: #ff8306;
+}
+.classButtonUser:active{
+  background-color: #a55200;
 }
 
 .hoverButton{
-  background-color: #6084a1;
+  background-color: #2a9382;
   margin: 10px 5px;
   font-weight: 700;
   padding: 0.8em 1.2em;
@@ -61,6 +88,9 @@
 }
 .hoverButton:hover{
   background-color: #ff8306;
+}
+.hoverButton:active{
+  background-color: #a55200;
 }
 .logo {
   height: 6em;
@@ -77,6 +107,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.classTitleHome {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 45px;
+}
+
+.classSubtitle {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #f8990a;
+}
+.homeImage {
+  background-image: url('C:\Users\ST\petshop\homepagepic.jpg');
+  background-size: cover; 
+  background-position: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
